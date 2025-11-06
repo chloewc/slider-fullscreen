@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!-- Inclure Swiper CSS --&gt;</p>
+<p class="p1">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">/* Supprimer le titre de la page */</p>
+<p class="p1">.entry-title, .page-title {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: none !important;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">/* Full screen slider */</p>
+<p class="p1">html, body {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.swiper {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width: 100vw !important;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>height: 100vh !important;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 !important;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 0 !important;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.swiper-slide {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #000;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.swiper-slide iframe,</p>
+<p class="p1">.swiper-slide img,</p>
+<p class="p1">.swiper-slide video,</p>
+<p class="p1">.swiper-slide widget-digisnow-ski-area {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width: 100vw !important;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>height: 100vh !important;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>object-fit: cover;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border: none;</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Slider HTML --&gt;</p>
+<p class="p1">&lt;div class="swiper"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="swiper-wrapper"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Météo de Morzine --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="swiper-slide"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;iframe src="https://bulletinv3.lumiplan.pro/bulletin.php?station=morzine&amp;lang=fr&amp;isSoir=false"&gt;&lt;/iframe&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Webcam Sommet du Pleney --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="swiper-slide"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;iframe src="https://app.webcam-hd.com/morzine/sommet-du-pleney"&gt;&lt;/iframe&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Photos / vidéos promotionnelles --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="swiper-slide"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="https://www.morzine-avoriaz.com/app/uploads/2025/09/drone-pas-de-laigle-sylvain-cochard-1.webp" alt="Promotion"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Bulletin neige Avoriaz --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="swiper-slide"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;script src="https://avoriaz.digisnow.app/widget/widget-digisnow.1.0.19.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;widget-digisnow-ski-area station="avoriaz" lang="fr" id="8"&gt;&lt;/widget-digisnow-ski-area&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- État d’ouverture des pistes --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="swiper-slide"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p style="color:white; font-size:3em; margin:0;"&gt;12/15 pistes ouvertes, 3 remontées fermées&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Inclure Swiper JS --&gt;</p>
+<p class="p1">&lt;script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">const swiper = new Swiper('.swiper', {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>loop: true,</p>
+<p class="p1"><span class="Apple-converted-space">  </span>autoplay: {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>delay: 8000, // 8 secondes par slide</p>
+<p class="p1"><span class="Apple-converted-space">    </span>disableOnInteraction: false,</p>
+<p class="p1"><span class="Apple-converted-space">  </span>},</p>
+<p class="p1"><span class="Apple-converted-space">  </span>effect: 'fade', // transition fondu</p>
+<p class="p1">});</p>
+<p class="p1">&lt;/script&gt;</p>
+</body>
+</html>
